@@ -2,7 +2,8 @@
  * @providesModule LinearGradient
  * @flow
  */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { processColor, requireNativeComponent, View } from 'react-native';
 
 type PropsType = {
